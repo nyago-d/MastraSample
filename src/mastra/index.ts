@@ -3,7 +3,7 @@ import { Mastra } from '@mastra/core/mastra';
 import { PinoLogger } from '@mastra/loggers';
 import { LibSQLStore } from '@mastra/libsql';
 
-import { researchNetwork } from './network';
+import { researchNetwork } from './network/research-network';
 import { webSearchAgent } from './agents/research-agent';
 import { weatherAgent } from './agents/weather-agent';
 import { datetimeAgent } from './agents/datetime-agent';
